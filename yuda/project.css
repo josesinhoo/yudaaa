@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(26, 81, 116,0334), rgba(26, 81, 116, 0.334)), url('2.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px 60px;
+    height: 100px; 
+    position: fixed;  
+    top: 0; 
+    left: 0;  
+    width: 100%;  
+    z-index: 1000; 
+    opacity: 0.9;
+}
+
+body {
+    margin-top: 120px; 
+}
+
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+  
+  /* Contenido de styles.css */
+.team {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+    height:800px;
+  }
+  
+  .team h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+  }
+  
+  .member {
+    flex: 1;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .member h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .p1{
+    text-align: justify;
+    color: #000000;
+    font-display: center;
+    font-size: 19px;
+    padding: 50px, 50px;
+  }
+  .p2{
+    text-align: justify;
+    color: #000000;
+    font-display: center;
+    font-size: 19px;
+    padding: 50px, 50px;
+  }
+  .p3{
+    text-align: justify;
+    color: #000000;
+    font-display: center;
+    font-size: 19px;
+    padding: 50px, 50px;
+  }
+  .p4{
+    margin-top: 50px;
+    text-align: justify;
+    color: #000000;
+    font-display: center;
+    font-size: 19px;
+    padding: 50px, 50px;
+  }
+  .team-image4{
+    width: 400px;
+    height: auto;
+    margin-top: 70px;
+    border-radius: 0;
+  }
+
+  .team-image {
+    width: 400px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 0;
+  }
+  
+  .divider {
+    width: 2px;
+    height: auto;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  footer {
+    background-image: url("foot.png");  
+    height: 400px;          
+    }
+  
